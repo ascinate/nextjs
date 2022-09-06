@@ -29,17 +29,17 @@ function Navbar(){
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
+                    <li className={router.pathname == "/" ? "active" : ""}>
                         <Link href='/' > 
                             <span className="nav-link">  Home </span>
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    <li className={router.pathname == "/about" ? "active" : ""}>
                         <Link href='/about' > 
                             <span className="nav-link">  About</span>
                         </Link>
                     </li>
-                    <li className="nav-item dropdown dropdown-mega position-static">
+                    <li className="dropdown dropdown-mega position-static">
                         <a className="nav-link mega-menu-a dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                         </a>
@@ -219,13 +219,13 @@ function Navbar(){
                            </div>
                         </ul>
                     </li>
-                    <li className="nav-item">
-                        <Link href='/about' > 
+                    <li className={router.pathname == "/contact" ? "active" : ""}>
+                        <Link href='/contact' > 
                             <span className="nav-link">  Contact </span>
                         </Link>
                     </li>
 
-                    <li className="nav-item">
+                    <li>
                         <Link href='/about' > 
                             <span className="btn lets-btn1"> Send a message </span>
                         </Link>
