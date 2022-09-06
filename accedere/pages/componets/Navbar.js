@@ -1,7 +1,9 @@
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BsArrowRightShort, BsFillGridFill } from "react-icons/bs";
+import { BsArrowRightShort, BsFillGridFill, BsFillShieldLockFill,BsFillBookmarkFill,BsLayersFill, BsCloudHaze2Fill, BsFileEarmarkBarGraphFill,BsKeyFill } from "react-icons/bs";
+
+
 
 function Navbar(){
 
@@ -41,71 +43,92 @@ function Navbar(){
                         <a className="nav-link mega-menu-a dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                         </a>
-                        <ul className="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                            <div className='mega-content'>
                                <div className='row'>
                                   <div className='col-lg-6'>
-                                      <div className='comon-div1-links'>
-                                          <h5> AICPA SOC 1, 2, 3 Reports </h5>
-                                           <ul className='list-unstyled big-count-li'>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC Reporting Services</span>
-                                                 </Link>
-                                              </li>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC 1 Type 2 Compliance Audit</span>
-                                                 </Link>
-                                              </li>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC 2 Type 2 Compliance Audit</span>
-                                                 </Link>
-                                              </li>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC 2 Type 2 Compliance Audit</span>
-                                                 </Link>
-                                              </li>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC Reports for Cloud Security</span>
-                                                 </Link>
-                                              </li>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC Reports for Privacy</span>
-                                                 </Link>
-                                              </li>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC Reports for Cyber Risk</span>
-                                                 </Link>
-                                              </li>
-                                              <li>
-                                                 <Link href='/' > 
-                                                    <span className="nav-link">SOC for Supply Chain</span>
-                                                 </Link>
-                                              </li>
-                                           </ul>
-                                           <h5 className='my-2'>
-                                                <Link href='/' > 
-                                                    <span> SOC reports for Privacy </span>
-                                                </Link>
-                                            </h5>
-                                            <h5>
-                                                <Link href='/' > 
-                                                        <span> ISO Certification Services </span>
-                                                </Link>
-                                            </h5>
-                                      </div>
+                                       <div className='row row-cols-1 row-cols-lg-2'>
+                                            <div className='col'>
+                                                <div className='comon-div1-links'>
+                                                    <h5> <BsFileEarmarkBarGraphFill/> AICPA SOC 1, 2, 3 Reports </h5>
+                                                    <ul className='list-unstyled '>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC Reporting Services</span>
+                                                        </Link>
+                                                        </li>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC 1 Type 2 Compliance Audit</span>
+                                                        </Link>
+                                                        </li>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC 2 Type 2 Compliance Audit</span>
+                                                        </Link>
+                                                        </li>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC 2 Type 2 Compliance Audit</span>
+                                                        </Link>
+                                                        </li>
+                                                  
+                                                    </ul>
+                                                    <h5 className='mt-3'>
+                                                        <Link href='/' > 
+                                                             <span> <BsLayersFill/> SOC reports for Privacy </span>
+                                                        </Link>
+                                                    </h5>
+                                                    <h5>
+                                                        <Link href='/' > 
+                                                                <span> <BsFillBookmarkFill/> ISO Certification Services </span>
+                                                        </Link>
+                                                    </h5>
+                                                </div>
+                                            </div>
+
+                                            <div className='col'>
+                                                <div className='comon-div1-links'>
+                                                    <h5> <BsFileEarmarkBarGraphFill/> AICPA SOC 1, 2, 3 Reports </h5>
+                                                    <ul className='list-unstyled '>
+                                                        
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC 2 Type 2 Compliance Audit</span>
+                                                        </Link>
+                                                        </li>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC Reports for Cloud Security</span>
+                                                        </Link>
+                                                        </li>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC Reports for Privacy</span>
+                                                        </Link>
+                                                        </li>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC Reports for Cyber Risk</span>
+                                                        </Link>
+                                                        </li>
+                                                        <li>
+                                                        <Link href='/' > 
+                                                            <span className="nav-link">SOC for Supply Chain</span>
+                                                        </Link>
+                                                        </li>
+                                                    </ul>
+                                                   
+                                                </div>
+                                            </div>
+                                       </div>
+                                      
                                   </div>
                                   <div className='col-lg-6'>
                                       <div className='row row-cols-1 row-cols-lg-3'>
                                                 <div className='col'>
                                                         <div className='comon-div1-links'>
-                                                            <h5> Cybersecurity </h5>
+                                                            <h5><BsFillShieldLockFill/>  Cybersecurity </h5>
                                                             <ul className='list-unstyled'>
                                                                 <li>
                                                                     <Link href='/' > 
@@ -136,7 +159,7 @@ function Navbar(){
 
                                                 <div className='col'>
                                                     <div className='comon-div1-links'>
-                                                        <h5> Cloud Security </h5>
+                                                        <h5> <BsCloudHaze2Fill/> Cloud Security </h5>
                                                         <ul className='list-unstyled'>
                                                             <li>
                                                                 <Link href='/' > 
@@ -166,7 +189,7 @@ function Navbar(){
 
                                                 <div className='col'>
                                                     <div className='comon-div1-links'>
-                                                        <h5> Privacy </h5>
+                                                        <h5> <BsKeyFill/> Privacy </h5>
                                                         <ul className='list-unstyled'>
                                                             <li>
                                                                 <Link href='/' > 

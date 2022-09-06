@@ -202,6 +202,28 @@ border: none !important;
   transition: all .5s;
   padding-left: 0 !important;
 }
+.dropdown-mega .dropdown-menu{
+   right: 0;
+   margin: auto;
+   width: 82%;
+   padding:20px;
+}
+.comon-div1-links h5 svg{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.dropdown-mega .dropdown-menu:before {
+  position: absolute;
+  top: -10px;
+  width: 10px;
+  right: 340px;
+  height: 10px;
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent;
+  border-bottom: solid 10px #fff;
+  content: '';
+}
 .navbar .nav-item .dropdown-toggle::after{
  
 }
@@ -529,6 +551,10 @@ figure.smm-all {
   font-size: 16px;
   font-weight: 600;
   color: #000;
+  display: flex;
+  align-items: center;
+  color: #377dff;
+  margin-bottom: 11px;
 }
 .big-count-li{
   column-count: 2;
