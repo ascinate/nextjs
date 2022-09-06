@@ -22,7 +22,7 @@ function contact(){
                                 Complete the contact form and our team will reach out within 24 hours.  </p>
                                 
                                 <div className="map-div-1 mt-4">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24540.597722237064!2d-104.991358!3d39.749203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78da287122a9%3A0x1f7a76af26546f63!2sDenver%20Place%2C%20999%2018th%20St%20%233000%2C%20Denver%2C%20CO%2080202%2C%20USA!5e0!3m2!1sen!2sin!4v1662474621712!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24540.597722237064!2d-104.991358!3d39.749203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78da287122a9%3A0x1f7a76af26546f63!2sDenver%20Place%2C%20999%2018th%20St%20%233000%2C%20Denver%2C%20CO%2080202%2C%20USA!5e0!3m2!1sen!2sin!4v1662474621712!5m2!1sen!2sin"  allowFullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                             <div className="col">
@@ -56,9 +56,9 @@ function contact(){
                                         </div>
 
                                         <div className="col-lg-12">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                                <label class="form-check-label text-white" for="flexCheckDefault">
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                                                <label className="form-check-label text-white" htmlFor="flexCheckDefault">
                                                     I agree to allow Accedere to store and process my personal data.*
                                                 </label>
                                             </div>
